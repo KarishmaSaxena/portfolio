@@ -148,6 +148,7 @@ const experiences = [
       "Developed backend systems using Java and PostgreSQL for package and vulnerability management.",
       "Designed and optimized database queries for large-scale data processing; built analytical dashboards for catalog and dependency visualization.",
       "Implemented Neo4j graph databases to model complex dependency relationships.",
+      "Project — Online Transport Review System (Dec 2024 – May 2025): Built using React (frontend) and Django (backend); implemented transporter search, reviews, ratings, and blacklist verification for fraudulent transporters and load tracking; integrated REST APIs via Axios; designed PostgreSQL schema for transporter, review, and user data.",
       "Improved API performance and reduced response times through query optimization and caching.",
     ],
   },
