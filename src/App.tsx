@@ -128,38 +128,47 @@ const projects = [
 
 const experiences = [
   {
-    title: "Software Developer",
-    company: "Ravana Logistics & Technologies Pvt. Ltd.",
-    period: "May 2025 – Feb 2026",
-    location: "Bangalore, India",
-    responsibilities: [
-      "Developed backend services with Java, Node.js, and PostgreSQL for processing vulnerability data.",
-      "Implemented rule-based logic using ANTLR to automate CVE classification, saving ~25% manual effort.",
-      "Designed Neo4j graph structures to model dependencies for 500+ software packages.",
-      "Created React dashboards using Tailwind CSS for vulnerability catalog visualization.",
-    ],
-  },
-  {
-    title: "Software Developer",
-    company: "Ridensta Tours & Travels Pvt. Ltd.",
-    period: "Aug 2024 – Feb 2025",
+    title: "Software Engineer",
+    company: "Lineaje",
+    period: "Sep 2025 – Present",
     location: "Remote",
     responsibilities: [
-      "Developed a React-based booking management platform for transport services.",
-      "Implemented state management using Context API to handle booking flows and user data.",
-      "Integrated Django REST APIs to manage trip transactions and user workflows.",
+      "Built and maintained REST APIs and backend validation logic for enterprise applications, improving data integrity across services.",
+      "Analyzed workflow data and system behavior across multiple applications to debug inconsistencies and improve reliability.",
+      "Worked extensively with dashboards, reporting modules, authentication systems, and workflow analytics.",
+      "Collaborated with cross-functional engineering teams to resolve defects and improve API and data accuracy.",
     ],
   },
   {
-    title: "Frontend Developer",
-    company: "Legals Log Technologies",
-    period: "Jan 2024 – Aug 2024",
-    location: "Noida, India",
+    title: "Software Developer",
+    company: "Ravana Logistics & Technologies Pvt. Ltd.",
+    period: "Sep 2024 – Aug 2025",
+    location: "Bangalore, India",
     responsibilities: [
-      "Developed React web application for AI-powered legal assistance platform.",
-      "Integrated e-court systems with secure APIs for real-time data synchronization.",
-      "Built responsive web applications using HTML, CSS, and JavaScript.",
-      "Collaborated with designers and conducted cross-browser compatibility testing.",
+      "Developed backend systems using Java and PostgreSQL for package and vulnerability management.",
+      "Designed and optimized database queries for large-scale data processing; built analytical dashboards for catalog and dependency visualization.",
+      "Implemented Neo4j graph databases to model complex dependency relationships.",
+      "Improved API performance and reduced response times through query optimization and caching.",
+    ],
+  },
+  {
+    title: "Software Developer Intern",
+    company: "Rideinsta Tours & Travels Pvt. Ltd.",
+    period: "Mar 2024 – Aug 2024",
+    location: "Bangalore, India",
+    responsibilities: [
+      "Developed and maintained business management systems for vehicle inventory and booking operations.",
+      "Built reporting features and operational workflows; managed database operations ensuring data consistency across modules.",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    company: "Legals Log Technologies",
+    period: "Nov 2023 – Feb 2024",
+    location: "Remote",
+    responsibilities: [
+      "Developed dashboard interfaces for legal workflow management systems using React.js.",
+      "Integrated external systems and built reporting/tracking interfaces, improving data accessibility for end users.",
     ],
   },
 ];
@@ -356,10 +365,10 @@ export default function App() {
               Full Stack Developer
             </h2>
             <p className="text-muted-foreground leading-relaxed text-base max-w-md mb-8">
-              Software Developer with 1+ year of professional experience
-              building scalable, production-ready web applications using
-              React.js and JavaScript. Strong expertise in REST API integration,
-              state management, and responsive UI development.
+              Full Stack Developer with 2 years 10 months of professional
+              experience building scalable, production-ready web applications
+              using React.js and JavaScript. Strong expertise in REST API
+              integration, state management, and responsive UI development.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <a
@@ -425,7 +434,7 @@ export default function App() {
                   <div className="pl-4">
                     <span className="text-primary/80">experience</span>:{" "}
                     <span className="text-yellow-400/80">
-                      &quot;1+ year&quot;
+                      &quot;2 years 10 months&quot;
                     </span>
                     ,
                   </div>
