@@ -62,6 +62,42 @@ const skills = [
 
 const projects = [
   {
+    title: "Puremandi — Full-Stack E-Commerce Platform",
+    image:
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+    description:
+      "Full e-commerce platform with product catalog, cart, wishlist, reviews, offers, and order management. JWT-based authentication and Razorpay payment integration on a Django REST backend with a React/TypeScript/Vite frontend.",
+    technologies: ["React", "TypeScript", "Django REST", "JWT", "Razorpay"],
+    link: "#",
+  },
+  {
+    title: "LinkedIn Agent Analytics Platform",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    description:
+      "End-to-end data pipeline with ingestion, data-quality checks, and anomaly scoring, running in Docker with GitHub Actions CI, pytest coverage, and Power BI export via a star-schema data model.",
+    technologies: ["Python", "Docker", "CI/CD", "Power BI"],
+    link: "#",
+  },
+  {
+    title: "AI Pipeline Builder",
+    image:
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    description:
+      "Visual pipeline builder with a FastAPI backend for parsing node/edge graph structures and a React frontend — hands-on exposure to the workflow/graph patterns underlying agentic AI systems.",
+    technologies: ["FastAPI", "React", "Graph Architecture"],
+    link: "https://github.com/KarishmaSaxena/VectorShiftassignmnet",
+  },
+  {
+    title: "Sentiment Analysis: VADER vs. RoBERTa",
+    image:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+    description:
+      "Compared rule-based (VADER) and transformer-based (RoBERTa) sentiment models on Amazon product reviews, including NLP preprocessing, per-model scoring, and visualization of results.",
+    technologies: ["Python", "NLTK", "Hugging Face Transformers"],
+    link: "https://github.com/KarishmaSaxena/naturalLanguageProcessing/blob/main/sentimentanalysis_project.ipynb",
+  },
+  {
     title: "Discover Bangalore",
     image:
       "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
@@ -71,22 +107,13 @@ const projects = [
     link: "https://dicoverbanglorewebsite.vercel.app/explore",
   },
   {
-    title: "Stock Portfolio Management",
+    title: "Axiom Trade Clone",
     image:
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
     description:
-      "Rule-based algorithms to identify long-term investment opportunities using historical market data and automated third-party API tracking.",
-    technologies: ["Python", "Pandas", "Scikit-Learn"],
+      "Pixel-perfect clone of Axiom Trade's token discovery table, featuring real-time token updates, a filter modal with tabs, and protocol/token selection.",
+    technologies: ["React", "TypeScript", "Real-Time UI"],
     link: "https://axiom-pro-clone.vercel.app/",
-  },
-  {
-    title: "Sentiment Analysis (RoBERTa)",
-    image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
-    description:
-      "Sentiment analysis system using VADER and RoBERTa on Amazon reviews to classify and compare customer insights.",
-    technologies: ["Python", "RoBERTa", "VADER"],
-    link: "#",
   },
   {
     title: "Flower Shop Website",
@@ -96,15 +123,6 @@ const projects = [
       "Responsive multi-page website with clean navigation and polished UI built in a timed assessment.",
     technologies: ["Next.js", "Responsive Design"],
     link: "https://nextdev-flower-shop-mt0aiqxvj-karishmasaxenas-projects.vercel.app/",
-  },
-  {
-    title: "Engineer Vetting Pipeline",
-    image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
-    description:
-      "Multi-stage candidate evaluation system with scoring, ranking, and role matching. Achieved 85% test accuracy.",
-    technologies: ["Full Stack", "Scoring System"],
-    link: "https://frontend-nine-theta-72.vercel.app/",
   },
 ];
 
