@@ -128,15 +128,27 @@ const projects = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "QA Engineer",
     company: "Lineaje",
-    period: "Sep 2025 – Present",
+    period: "Mar 2026 – Present",
     location: "Remote",
     responsibilities: [
       "Built and maintained REST APIs and backend validation logic for enterprise applications, improving data integrity across services.",
       "Analyzed workflow data and system behavior across multiple applications to debug inconsistencies and improve reliability.",
       "Worked extensively with dashboards, reporting modules, authentication systems, and workflow analytics.",
       "Collaborated with cross-functional engineering teams to resolve defects and improve API and data accuracy.",
+      "Built and maintained an automated UI testing framework (Playwright-based) to streamline QA coverage across the product.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "Lineaje",
+    period: "Sep 2025 – Feb 2026",
+    location: "Remote",
+    responsibilities: [
+      "Developed backend systems using Java and PostgreSQL for package and vulnerability management.",
+      "Designed and optimized database queries for large-scale data processing; built analytical dashboards for catalog and dependency visualization.",
+      "Implemented Neo4j graph databases to model complex dependency relationships.",
     ],
   },
   {
@@ -145,11 +157,7 @@ const experiences = [
     period: "Sep 2024 – Aug 2025",
     location: "Bangalore, India",
     responsibilities: [
-      "Developed backend systems using Java and PostgreSQL for package and vulnerability management.",
-      "Designed and optimized database queries for large-scale data processing; built analytical dashboards for catalog and dependency visualization.",
-      "Implemented Neo4j graph databases to model complex dependency relationships.",
-      "Project — Online Transport Review System (Dec 2024 – May 2025): Built using React (frontend) and Django (backend); implemented transporter search, reviews, ratings, and blacklist verification for fraudulent transporters and load tracking; integrated REST APIs via Axios; designed PostgreSQL schema for transporter, review, and user data.",
-      "Improved API performance and reduced response times through query optimization and caching.",
+      "Online Transport Review System (Dec 2024 – May 2025): Built using React (frontend) and Django (backend); implemented transporter search, reviews, ratings, and blacklist verification for fraudulent transporters and load tracking; integrated REST APIs via Axios; designed PostgreSQL schema for transporter, review, and user data.",
     ],
   },
   {
@@ -281,7 +289,8 @@ export default function App() {
 
           {/* Download Resume — desktop */}
           <a
-            href="#"
+            href="/Karishma_Saxena_Resume.pdf"
+            download
             className="hidden md:flex items-center gap-2 px-4 py-2 rounded-xl text-base font-medium bg-primary/10 text-primary border border-primary/30 hover:bg-primary/20 transition-colors duration-200"
           >
             <Download size={17} />
@@ -323,7 +332,8 @@ export default function App() {
                 </button>
               ))}
               <a
-                href="#"
+                href="/Karishma_Saxena_Resume.pdf"
+                download
                 className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-base font-semibold bg-primary/10 text-primary border border-primary/30 hover:bg-primary/20 mt-1 transition-colors"
               >
                 <Download size={18} />
@@ -389,7 +399,7 @@ export default function App() {
             </div>
             <p className="flex items-center gap-2 text-sm text-muted-foreground">
               <MapPin size={16} className="text-primary" />
-              Available for Remote Opportunities
+              Available for Hybrid, Work From Office & Remote Opportunities
             </p>
           </motion.div>
 
@@ -805,7 +815,8 @@ export default function App() {
               <Github size={24} />
             </a>
             <a
-              href="#"
+              href="/Karishma_Saxena_Resume.pdf"
+              download
               className="p-4 rounded-xl bg-card border border-border text-muted-foreground hover:text-primary hover:border-primary/40 transition-colors"
               aria-label="Download Resume"
             >
