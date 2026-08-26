@@ -128,27 +128,18 @@ const projects = [
 
 const experiences = [
   {
-    title: "QA Engineer",
-    company: "Lineaje",
-    period: "Mar 2026 – Present",
-    location: "Remote",
-    responsibilities: [
-      "Built and maintained REST APIs and backend validation logic for enterprise applications, improving data integrity across services.",
-      "Analyzed workflow data and system behavior across multiple applications to debug inconsistencies and improve reliability.",
-      "Worked extensively with dashboards, reporting modules, authentication systems, and workflow analytics.",
-      "Collaborated with cross-functional engineering teams to resolve defects and improve API and data accuracy.",
-      "Built and maintained an automated UI testing framework (Playwright-based) to streamline QA coverage across the product.",
-    ],
-  },
-  {
     title: "Software Engineer",
     company: "Lineaje",
-    period: "Sep 2025 – Feb 2026",
+    period: "Sep 2025 – Present",
     location: "Remote",
     responsibilities: [
       "Developed backend systems using Java and PostgreSQL for package and vulnerability management.",
       "Designed and optimized database queries for large-scale data processing; built analytical dashboards for catalog and dependency visualization.",
       "Implemented Neo4j graph databases to model complex dependency relationships.",
+      "Built and maintained REST APIs and backend validation logic for enterprise applications, improving data integrity across services.",
+      "Analyzed workflow data and system behavior across multiple applications to debug inconsistencies and improve reliability.",
+      "Worked extensively with dashboards, reporting modules, authentication systems, and workflow analytics.",
+      "Collaborated with cross-functional engineering teams to resolve defects and improve API and data accuracy; built and maintained an automated UI testing framework (Playwright-based) to streamline QA coverage across the product.",
     ],
   },
   {
